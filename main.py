@@ -8,9 +8,9 @@ from telethon.errors import FloodWaitError, RPCError
 ##################################
 # [1] 텔레그램 기본 설정
 ##################################
-API_ID = int(os.getenv("API_ID", "20047701"))
-API_HASH = os.getenv("API_HASH", "15372c3ed7045376c7a12d3a2309e9f9")
-PHONE_NUMBER = os.getenv("PHONE_NUMBER", "+8801619229398")
+API_ID = int(os.getenv("API_ID", "25639518"))
+API_HASH = os.getenv("API_HASH", "be2f778d4d71989f386000811281aef3")
+PHONE_NUMBER = os.getenv("PHONE_NUMBER", "+818028508782")
 
 SESSION_NAME = "my_telethon_session"
 client = TelegramClient(
@@ -23,7 +23,7 @@ client = TelegramClient(
 
 ##################################
 # [2] 광고(홍보) 계정 & 메시지 설정
-##################################d
+##################################
 MARKETING_USER = "@cuz_z"  # 홍보 계정 유저네임(or ID)
 MSG_LIMIT = 3  # 최근 메시지 3개 (a, b, c) 로 라운드 로빈
 
